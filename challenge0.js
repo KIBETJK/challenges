@@ -1,6 +1,6 @@
 function runFunction()
 {
-let num=2;
+let num= document.getElementById(parseInt("number"));
 var result;
 if (num%2==0) {
     result="even number";
